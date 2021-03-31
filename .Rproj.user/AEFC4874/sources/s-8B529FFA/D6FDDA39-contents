@@ -1,0 +1,31 @@
+--- 
+title: "A2019 Web-Automation"
+author: "윤창식"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "Web-Automation"
+---
+
+# Introduction
+
+본 글은 **A2019 Package**인 *Web-Automation*에 대해 설명하기 위해 작성하였다. 
+해당 `package`는 [A2019 Web-Automation](https://botstore.automationanywhere.com/bot/a2019-web-automation-package/)에서 무료로 다운받을 수 있다. 
+
+## Overview
+
+* *Web-Automation*은 Chrome browser에서 **JavaScript**를 활용하여 업무를 자동화하기 위해 사용되는 package이다.
+* *Web-Automation*은 **Chromedriver**와 **Selenium**을 기반으로 작동한다. 
+
+
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
